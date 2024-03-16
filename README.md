@@ -64,27 +64,17 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+- I learned how to set up a Tailwind CSS configuration, how to use the official [Tailwind VS Code extension](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss), which offers intellisense, and how to set up [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) using the [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss?tab=readme-ov-file) plugin. In the Prettier settings, I added ".prettierrc.js" to the "Prettier: Config Path," then created a file by the same name in the root of my project (also where my indec.html is), and included the following code:
 
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
+/** @type {import("prettier").Config} */
+
+module.exports = {
+  plugins: ["prettier-plugin-tailwindcss"],
 };
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+...and now my classes format-on-save, which is rad.
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
