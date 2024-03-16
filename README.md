@@ -16,9 +16,9 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+For this challenge, I wanted mostly to learn Tailwind CSS as well as further my learning of accessibility.
 
 ### The challenge
 
@@ -28,20 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Social Links Profile Image](./assets/images/screenshot.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://sociallinksprofilefementor.netlify.app/)
 
 ## My process
 
@@ -49,19 +41,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - I initialized git and a GitHub repo and pushed the starter files
 - Initialized [Tailwind CSS](https://tailwindcss.com/)
 - Styled using a mobile-first approach
+- Refactored for accessibility
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- Tailwind CSS
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -79,29 +65,26 @@ module.exports = {
 
 - I learned that Tailwind is pretty awesome. I can definitely use it in my work flow.
 
+- I learned that I'll have to get better with a screen reader. I think I'd really like to sit with someone who relies on methods of accessibility to browse the web.
+
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I will be adopting Tailwind as my main source for styling, so I'll be diving deeper into that. I'd also like to dig deeper into how a page is broken up in terms of accessibility and how screen readers navigate through them.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I also found a section on [FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-accessibility-by-building-a-quiz) that focuses on accessibility. I will be working through that section.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Tailwind Documentation](https://tailwindcss.com/docs/installation) - Very well written! Easy to navigate and understand.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Steve Xero](https://www.stevexero.com) - under construction
+- Old [Website](https://www.steven-woodward.com)
+- GitHub - [Steve Xero](https://www.github.com/stevexero)
+- Frontend Mentor - [@stevexero](https://www.frontendmentor.io/profile/stevexero)
+- X - [@steve_xero](https://www.twitter.com/steve_xero)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Big shouts to [Adam Wathan](https://twitter.com/adamwathan) for creating [Tailwind CSS](https://tailwindcss.com/)!
