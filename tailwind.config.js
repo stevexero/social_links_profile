@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       width: {
         88: "88px",
+        279: "279px",
         304: "304px",
       },
       fontFamily: {
