@@ -12,21 +12,44 @@
     <link href="/output.css" rel="stylesheet" />
     <title>Frontend Mentor | Social links profile</title>
   </head>
-  <body class="bg-primary">
-    <main class="bg-secondary">
-      <img src="/assets/images/avatar-jessica.jpeg" />
-      <h2 class="text-light">Jessica Randall</h2>
-      <h3 class="text-accent">London, United Kingdom</h3>
-      <p class="text-light">"Front-end developer and avid reader."</p>
-      <button class="bg-tertiary text-light text-center">GitHub</button
-      ><button class="bg-tertiary text-light text-center">
-        Frontend Mentor
-      </button>
-      <button class="bg-tertiary text-light text-center">LinkedIn</button
-      ><button class="bg-tertiary text-light text-center">Twitter</button
-      ><button class="bg-tertiary text-light text-center">Instagram</button>
+  <body
+    class="font-inter bg-primary font-regular relative flex h-screen w-screen flex-col items-center justify-center text-base tracking-normal"
+  >
+    <main class="bg-secondary flex flex-col items-center rounded-xl p-10">
+      <img class="w-88 rounded-full" src="/assets/images/avatar-jessica.jpeg" />
+      <h2 class="text-light text-heading mt-6 font-semibold">
+        Jessica Randall
+      </h2>
+      <h3 class="text-accent text-subheading mt-1 font-semibold">
+        London, United Kingdom
+      </h3>
+      <p class="text-light mt-6">"Front-end developer and avid reader."</p>
+      <div class="flex flex-col font-semibold">
+        <button
+          class="bg-tertiary text-light w-304 mt-6 rounded-lg pb-3 pt-3 text-center"
+        >
+          GitHub</button
+        ><button
+          class="bg-tertiary text-light w-304 mt-4 rounded-lg pb-3 pt-3 text-center"
+        >
+          Frontend Mentor
+        </button>
+        <button
+          class="bg-tertiary text-light w-304 mt-4 rounded-lg pb-3 pt-3 text-center"
+        >
+          LinkedIn</button
+        ><button
+          class="bg-tertiary text-light w-304 mt-4 rounded-lg pb-3 pt-3 text-center"
+        >
+          Twitter</button
+        ><button
+          class="bg-tertiary text-light w-304 mt-4 rounded-lg pb-3 pt-3 text-center"
+        >
+          Instagram
+        </button>
+      </div>
     </main>
-    <footer class="text-tertiary">
+    <footer class="text-tertiary w-100 absolute bottom-0 text-center">
       Challenge by
       <a
         class="text-link"

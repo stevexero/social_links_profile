@@ -10,7 +10,25 @@ module.exports = {
       link: "#444444",
       accent: "#C4F82A",
     },
-    extend: {},
+    extend: {
+      width: {
+        88: "88px",
+        304: "304px",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
+      fontSize: {
+        base: "14px",
+        heading: "24px",
+        subheading: "14px",
+      },
+      fontWeight: {
+        regular: 300,
+        semibold: 500,
+        bold: 600,
+      },
+    },
   },
   plugins: [],
 };
