@@ -47,6 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - I started by copying over the starter files from the project download, as well as the design files for Figma
 - I initialized git and a GitHub repo and pushed the starter files
+- Initialized [Tailwind CSS](https://tailwindcss.com/)
 
 ### Built with
 
