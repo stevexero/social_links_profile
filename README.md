@@ -67,6 +67,8 @@ module.exports = {
 
 - I learned that I'll have to get better with a screen reader. I think I'd really like to sit with someone who relies on methods of accessibility to browse the web.
 
+- I learned that the "region" role is not necessary for section elements
+
 ### Continued development
 
 I will be adopting Tailwind as my main source for styling, so I'll be diving deeper into that. I'd also like to dig deeper into how a page is broken up in terms of accessibility and how screen readers navigate through them.
