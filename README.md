@@ -48,6 +48,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - I started by copying over the starter files from the project download, as well as the design files for Figma
 - I initialized git and a GitHub repo and pushed the starter files
 - Initialized [Tailwind CSS](https://tailwindcss.com/)
+- Styled using a mobile-first approach
 
 ### Built with
 
@@ -76,7 +77,7 @@ module.exports = {
 
 ...and now my classes format-on-save, which is rad.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- I learned that Tailwind is pretty awesome. I can definitely use it in my work flow.
 
 ### Continued development
 

@@ -15,41 +15,58 @@
   <body
     class="font-inter bg-primary font-regular relative flex h-screen w-screen flex-col items-center justify-center text-base tracking-normal"
   >
-    <main
-      class="bg-secondary flex flex-col items-center rounded-xl p-6 sm:p-10"
-    >
-      <img class="w-88 rounded-full" src="/assets/images/avatar-jessica.jpeg" />
-      <h2 class="text-light text-heading mt-6 font-semibold">
-        Jessica Randall
-      </h2>
-      <h3 class="text-accent text-subheading mt-1 font-semibold">
-        London, United Kingdom
-      </h3>
-      <p class="text-light mt-6">"Front-end developer and avid reader."</p>
-      <div class="flex flex-col font-semibold">
+    <main class="bg-secondary rounded-xl p-6 sm:p-10">
+      <section
+        class="flex flex-col items-center"
+        role="region"
+        aria-label="Profile Information"
+      >
+        <img
+          class="w-88 rounded-full"
+          src="/assets/images/avatar-jessica.jpeg"
+          alt="Professional Headshot of Jessica"
+        />
+        <h2 class="text-light text-heading mt-6 font-semibold">
+          Jessica Randall
+        </h2>
+        <h3 class="text-accent text-subheading mt-1 font-semibold">
+          London, United Kingdom
+        </h3>
+        <p class="text-light mt-6">"Front-end developer and avid reader."</p>
+      </section>
+      <section
+        role="region"
+        aria-label="Social Links"
+        class="flex flex-col font-semibold"
+      >
         <button
           class="bg-tertiary text-light w-279 sm:w-304 hover:bg-accent hover:text-secondary mt-6 rounded-lg pb-3 pt-3 text-center transition-all focus:ring"
+          aria-label="github page"
         >
           GitHub</button
         ><button
           class="bg-tertiary text-light w-279 sm:w-304 hover:bg-accent hover:text-secondary mt-4 rounded-lg pb-3 pt-3 text-center transition-all focus:ring"
+          aria-label="frontend mentor page"
         >
           Frontend Mentor
         </button>
         <button
           class="bg-tertiary text-light w-279 sm:w-304 hover:bg-accent hover:text-secondary mt-4 rounded-lg pb-3 pt-3 text-center transition-all focus:ring"
+          aria-label="linkedin page"
         >
           LinkedIn</button
         ><button
           class="bg-tertiary text-light w-279 sm:w-304 hover:bg-accent hover:text-secondary mt-4 rounded-lg pb-3 pt-3 text-center transition-all focus:ring"
+          aria-label="twitter page"
         >
           Twitter</button
         ><button
           class="bg-tertiary text-light w-279 sm:w-304 hover:bg-accent hover:text-secondary mt-4 rounded-lg pb-3 pt-3 text-center transition-all focus:ring"
+          aria-label="instagram page"
         >
           Instagram
         </button>
-      </div>
+      </section>
     </main>
     <footer class="text-tertiary w-100 absolute bottom-0 text-center">
       Challenge by
